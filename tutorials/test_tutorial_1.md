@@ -20,6 +20,7 @@ player.onChat("hello", function () {
     agent.move(SixDirection.Forward, 1)
     agent.turn(TurnDirection.Right)
     agent.place(SixDirection.Back)
+    agentExt.repairBelow()
 })
 ```
 
