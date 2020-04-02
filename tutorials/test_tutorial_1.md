@@ -10,6 +10,7 @@ blocks.place(GRASS, pos(0,0,0))
 
 ```blocks
 mobs.spawn(CHICKEN, pos(0, 0, 0))
+agentExt.repairBelow()
 ```
 
 ## Step 2
