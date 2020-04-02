@@ -10,7 +10,8 @@
         "main.ts",
         "README.md",
         "extension.ts",
-        "tutorials/test_tutorial_1.md"
+        "tutorials/test_tutorial_1.md",
+        "tutorials/task1.md"
     ],
     "testFiles": [
         "test.ts"
