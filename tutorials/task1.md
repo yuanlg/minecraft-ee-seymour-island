@@ -21,8 +21,6 @@ agent.turn(LEFT_TURN)
 agent.move(FORWARD, 2)
 ```
 
-```ghost
-```
 
 ## Step 3
 Now place the redstone using ``||agent:agent place forward||``
