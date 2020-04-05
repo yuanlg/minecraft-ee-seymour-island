@@ -11,7 +11,9 @@
         "README.md",
         "extension.ts",
         "tutorials/test_tutorial_1.md",
-        "tutorials/task1.md"
+        "tutorials/task1.md",
+        "tutorials/task2.md",
+        "tutorials/task5.md"
     ],
     "testFiles": [
         "test.ts"
