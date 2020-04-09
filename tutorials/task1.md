@@ -6,25 +6,37 @@
 
 ## Step 1
 
+```template
+player.onItemInteracted(BLAZE_ROD, function () {
+})
+```
+
 In this task, you must fix the redstone circuit. The missing pieces are marked with green blocks below.
-Your agent has plenty of redstone, ready to be used for this repair.
+Your agent has plenty of redstone, ready to be used for this repair. 
+Place your code within the ``||player: on item used||`` section, then right click
+your **blaze rod** when you want to run the code.
+Hit the **Next** button to continue.
 
 ## Step 2
 First, we need to get our agent to the sections that have been damaged (marked with screen).
-Try using the ``||agent:agent move forward||`` and ``||agent:agent turn left/right||`` commands to position your agent in
-front of the first green block.
+Try using the ``||agent:agent move forward||`` and ``||agent:agent turn left/right||`` commands to position your agent
+above one of the green blocks.
 
 ```blocks
-agent.move(FORWARD, 1)
-agent.turn(LEFT_TURN)
-agent.move(FORWARD, 2)
+player.onItemInteracted(BLAZE_ROD, function () {
+    agent.move(FORWARD, 1)
+    agent.turn(LEFT_TURN)
+    agent.move(FORWARD, 2)
+})
 ```
 
 
 ## Step 3
-Now place the redstone using ``||agent:agent place redstone below||``
+Now place the redstone using ``||agent:agent place down||`` on a green block, to fix that part of the circuit.
 ```blocks
-agentExt.place_redstone_below()
+player.onItemInteracted(BLAZE_ROD, function () {
+    agent.place(DOWN)
+})
 ```
 
 
