@@ -6,12 +6,11 @@
 
 ## Step 1
 
-Before we start, make sure you have placed the redstone in the first slot of your Agent.
-You can access it's inventory by right clicking on it. Then click on the arrow to the right to move on.
+In this task, you must fix the redstone circuit. The missing pieces are marked with green blocks below.
+Your agent has plenty of redstone, ready to be used for this repair.
 
 ## Step 2
-With the inventory now loaded up, we need to move the Agent to the missing slots
-(highlighted in green).
+First, we need to get our agent to the sections that have been damaged (marked with screen).
 Try using the ``||agent:agent move forward||`` and ``||agent:agent turn left/right||`` commands to position your agent in
 front of the first green block.
 
@@ -23,14 +22,11 @@ agent.move(FORWARD, 2)
 
 
 ## Step 3
-Now place the redstone using ``||agent:agent place forward||``
+Now place the redstone using ``||agent:agent place redstone below||``
 ```blocks
-agent.place(FORWARD)
+agentExt.place_redstone_below()
 ```
 
-```ghost
-agent.place()
-```
 
 ## Step 4
 Now have your Agent move backwards and place redstone on the other green marked blocks.
