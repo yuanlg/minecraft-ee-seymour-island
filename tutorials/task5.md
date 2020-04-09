@@ -7,8 +7,9 @@
 ## Step 1
 
 In this task, we need to move clownfish and pufferfish from the ship, over onto the pier.
-First though, lets go collect some fish. Using the ``||agent:agent move left||`` command,
-followed by ``||agent:agent move forward||``. Finally, use the ``||agent:agent collect||`` 
+First though, lets go collect some fish. Use the ``||agent:agent move forward 2||`` command 
+to position your Agent over a fish collection point. 
+Then use the ``||agent:agent collect CLOWNFISH||`` 
 command to pick up only clownfish for now.
 
 ```blocks
