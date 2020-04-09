@@ -16,5 +16,14 @@ namespace agentExt {
             agent.place(DOWN)
         }
     }
+   
+      /**
+     * Places redstone below
+     */
+    //% block="agent place redstone below"
+    //% weight=90
+    export function placeRedstoneBelow() {
+        agent.place(DOWN)
+    }
 
 }
