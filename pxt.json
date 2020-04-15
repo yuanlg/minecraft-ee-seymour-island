@@ -13,7 +13,11 @@
         "tutorials/test_tutorial_1.md",
         "tutorials/task1.md",
         "tutorials/task2.md",
-        "tutorials/task5.md"
+        "tutorials/task5.md",
+        "tutorials/task6.md",
+        "tutorials/task7-coder.md",
+        "tutorials/task7-helper.md",
+        "tutorials/task8.md"
     ],
     "testFiles": [
         "test.ts"
