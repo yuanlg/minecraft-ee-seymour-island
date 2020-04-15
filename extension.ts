@@ -2,7 +2,7 @@
  * An experimental extension for building out an agent world
  */
 //% weight=94 color=#EC7505 icon="\uf1b3"
-namespace agentExt {
+namespace seymour {
    /**
      * Repair the block below
      */
