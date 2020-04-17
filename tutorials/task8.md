@@ -109,7 +109,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
     agent.move(RIGHT, 4)
     agent.move(FORWARD, 1)
     for (let value of floor) {
-    	agent.placeFloor(value)
+    	seymour.placeFloor(value)
     }
 })
 ```
@@ -132,7 +132,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
     agent.move(FORWARD, 1)
     for (let index = 0; index < 4; index++) {
         for (let value of floor) {
-        	agent.placeFloor(value)
+        	seymour.placeFloor(value)
         }
         agent.move(RIGHT, 4)
         agent.move(FORWARD, 1)
@@ -141,4 +141,8 @@ player.onItemInteracted(BLAZE_ROD, function () {
     agent.move(FORWARD, 6)
 })
 
+```
+
+```package
+seymour=github:gbaman/minecraft-ee-seymour-island
 ```
