@@ -34,28 +34,6 @@ That's ok, you can borrow my spare Agent. You better look after him!
 This little robot is your key to solving tasks in this world.   
 It can move around, place blocks and break blocks as well!
 
-
-## Buttons @unplugged
-
-Keep an eye out in each task for these buttons. They allow you to 
-- Quit the task to go try a different task.
-- Reset your agent (only) back to its starting position.
-- Reset the full task completely (except for the code you have written).
-
-![Buttons](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/buttons.jpg)
-
-
-## Status @unplugged
-
-There are a large collection of different tasks for you to complete.     
-Want to try a particular task?    
-Make sure the status displays at the front are green. If they are
-red, someone else is using it right now.   
-   
-Most tasks are duplicated 2-3 times, so if one is busy, why not try the next one?   
-![Status](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/status.jpg)
-
-
 ## Get started @unplugged
 
 Lets get you started on training using your new Agent. First, lets try writing
@@ -65,7 +43,7 @@ some code to instruct it to move from the Diamond block to the Gold block.
 You may wish to close this window (hit the **esc** key) to find your agent.   
 Remember, you can open it up again by pressing **C**
 
-## Step 6
+## Time to code
 Drag out an ``||Agent:agent move||`` block into the ``||player:on item used||`` block.   
 You will then need to change the **forward** to **left**.   
 You might also need to change the number of steps...   
