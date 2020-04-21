@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Hello Westminster!    
+Hello Westminster !    
 You should write some code in Minecraft you know.
 ```blocks
 blocks.place(GRASS, pos(0,0,0))
