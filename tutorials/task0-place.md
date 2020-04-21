@@ -7,7 +7,6 @@
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
 })
-
 ```
 
 # 1. Repair
@@ -34,7 +33,7 @@ to repair the hull of the ship
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
     agent.move(LEFT, 3)
-    agent.place(FORWARD)
+    agent.place(LEFT)
 })
 
 ```

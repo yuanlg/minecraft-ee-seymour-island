@@ -6,11 +6,20 @@
 
 ## Step 1
 
+```template
+player.onItemInteracted(BLAZE_ROD, function () {
+})
+```
+
 Let's use the agent to dig a mine shaft ahead. First, why not try breaking
 the block ahead of the Agent, using ``||agent:agent destroy forward||``.
+Place your code within the ``||player: on item used||`` section, then right click
+your **blaze rod** when you want to run the code.
 
 ```blocks
+player.onItemInteracted(BLAZE_ROD, function () {
 agent.destroy(FORWARD)
+})
 ```
 
 ## Step 2
@@ -19,12 +28,14 @@ Lets now combine that with an ``||agent:agent move up||`` command, followed by a
 Can you try getting your Agent to break the first column of 3 stone blocks?
 
 ```blocks
+player.onItemInteracted(BLAZE_ROD, function () {
 agent.destroy(FORWARD)
 agent.move(UP, 1)
 agent.destroy(FORWARD)
 agent.move(UP, 1)
 agent.destroy(FORWARD)
 agent.move(UP, 1)
+})
 ```
 
 
@@ -38,10 +49,12 @@ So why not add the ``||agent:agent destroy forward||`` and ``||agent:agent move 
 inside a ``||loops:Repeat 3 times do||``?
 
 ```blocks
+player.onItemInteracted(BLAZE_ROD, function () {
 for (let index = 0; index < 3; index++) {
     agent.destroy(FORWARD)
     agent.move(UP, 1)
 }
+})
 ```
 
 
