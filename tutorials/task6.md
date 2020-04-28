@@ -5,7 +5,7 @@
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
-agent.place(FORWARD)
+
 })
 ```
 
@@ -49,7 +49,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
     if (agent.inspect(AgentInspection.Block, DOWN) == EMERALD_BLOCK) {
 
     }
-    }
+})
 ```
 
 ## Step 5
@@ -64,34 +64,17 @@ player.onItemInteracted(BLAZE_ROD, function () {
         agent.place(DOWN)
     }
     agent.move(FORWARD, 1)
+})
 ```
 
 ## Step 6
 
-With our main piece of code now put together, we need to run this now 5 times to check each block in this row.
-Put a ``||loops:repeat 5 times||`` around the if statement and the agent move forward blocks.   
-Also make sure to move the agent back again once done, using ``||agent:agent move back by 5||`` after the loop.
-
-```blocks
-player.onItemInteracted(BLAZE_ROD, function () {
-    agent.move(LEFT, 1)
-        for (let index = 0; index < 5; index++) {
-            if (agent.inspect(AgentInspection.Block, DOWN) == EMERALD_BLOCK) {
-                agent.place(DOWN)
-            }
-            agent.move(FORWARD, 1)
-        }
-        agent.move(BACK, 5)
-})
-```
-
-## Step 7
-
-Try now to put run this all within a second loop, moving around each row one after each other.   
-This second loop should go around everything except the initial move left/right block.   
+You now have all the basic building blocks you need to complete this task. To reduce the amount of code you need to write to
+complete this task, make sure to give ``||loops:repeat X times||`` a go as well, as this will make things a lot easier.   
+Good luck!
 
 
-```blocks
+```ghost
 player.onItemInteracted(BLAZE_ROD, function () {
     agent.move(LEFT, 1)
     for (let index = 0; index < 4; index++) {
@@ -107,9 +90,6 @@ player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-```ghost
-agent.place(FORWARD)
-```
 
 
 ```package

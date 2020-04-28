@@ -34,6 +34,10 @@ Keep an eye out in each task for these buttons. They allow you to
 
 ![Buttons](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/buttons.jpg)
 
+## Mayor
+
+Looks like the Mayor is up ahead, you should go talk to her, perhaps she can help you.   
+![Mayor](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/mayor.jpg)
 
 ## Nothing to code
 
