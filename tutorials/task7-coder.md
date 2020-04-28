@@ -34,3 +34,7 @@ agent.move(FORWARD, 1)
 ```ghost
 agent.turn(LEFT)
 ```
+
+```package
+seymour=github:gbaman/minecraft-ee-seymour-island
+```

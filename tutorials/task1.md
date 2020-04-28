@@ -18,7 +18,7 @@ your **blaze rod** when you want to run the code.
 Hit the **Next** button to continue.
 
 ## Step 2
-First, we need to get our agent to the sections that have been damaged (marked with screen).
+First, we need to get our agent to the sections that have been damaged (marked with green).
 Try using the ``||agent:agent move forward||`` and ``||agent:agent turn left/right||`` commands to position your agent
 above one of the green blocks.
 
@@ -43,3 +43,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ## Step 4
 Now have your Agent move backwards and place redstone on the other green marked blocks.
 If you find yourself stuck or want to start again, hit the Reset button on the wall.
+
+```package
+seymour=github:gbaman/minecraft-ee-seymour-island
+```

@@ -50,3 +50,7 @@ Try putting all this within a ``||loops:Repeat times loop||`` to keep picking up
 
 ## Step 5
 Finally, replicate the same process to handle pufferfish. It is recommended to do this separately.
+
+```package
+seymour=github:gbaman/minecraft-ee-seymour-island
+```

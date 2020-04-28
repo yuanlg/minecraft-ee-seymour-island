@@ -19,8 +19,7 @@ Sailing time will be a few days, depending on the winds.
 
 ![Captain](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/captain.jpg)
 
-In this world, you will be solving a series of puzzles, using Code. You can access the
-coding window at any time by pressing the **C** key on your keyboard.    
+In this world, you will be solving a series of puzzles, using Code. You can access the coding window at any time by pressing the **C** key on your keyboard.    
 To solve these tasks, you will need to use an Agent.      
       
 Wait, you didn't bring one....?
@@ -29,10 +28,10 @@ Wait, you didn't bring one....?
 
 That's ok, you can borrow my spare Agent. You better look after him!
 
-![Agent](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/agent.jpg)
-
 This little robot is your key to solving tasks in this world.   
 It can move around, place blocks and break blocks as well!
+
+![Agent](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/agent.jpg)
 
 ## Get started @unplugged
 

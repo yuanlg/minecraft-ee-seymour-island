@@ -64,3 +64,7 @@ for (let index = 0; index < 3; index++) {
 Finally, using what you have learnt so far, can you use another ``||loops:Repeat 7 times do||`` 
 (or ``||loops:for||`` in Python) to dig out the rest of the mine shaft right up to
 the golden block at the end? Once complete, make sure your Agent finishes on the gold block pressure pad.
+
+```package
+seymour=github:gbaman/minecraft-ee-seymour-island
+```

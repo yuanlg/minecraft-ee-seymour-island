@@ -21,3 +21,7 @@ Close this window and hold the barrier block in your hand to see the maze.
 ```ghost
 loops.onStart()
 ```
+
+```package
+seymour=github:gbaman/minecraft-ee-seymour-island
+```
