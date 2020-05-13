@@ -22,6 +22,8 @@ Below, you will find a few commands that will make managing this game a whole lo
 - Teleport a student to you : ```/tp STUDENTNAME YOURNAME```
 - Clearing all players inventories : ```/clear @a```
 - Giving a player a replacement blaze rod : ```/give PLAYERNAME blaze_rod```
+- Switch to creative (flying) mode : ```/gamemode c```
+- Switch all players to adventure mode : ```/gamemode @a a```
 
 
 #### Seymour Island specific commands
