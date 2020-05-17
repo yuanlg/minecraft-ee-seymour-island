@@ -16,7 +16,7 @@ namespace seymour {
             agent.place(DOWN)
         }
     }
-   
+
       /**
      * Places redstone below
      */
@@ -25,9 +25,10 @@ namespace seymour {
     export function placeRedstoneBelow() {
         agent.place(DOWN)
     }
-   
+
    /**
      * Places one of the available floor blocks below
+     * @param blockid the block id to place below
      */
     //% block="agent place floor below"
     //% weight=90
