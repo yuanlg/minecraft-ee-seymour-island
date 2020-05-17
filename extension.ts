@@ -30,7 +30,7 @@ namespace seymour {
      * Places one of the available floor blocks below
      * @param blockid the block id to place below
      */
-    //% block="agent place floor below"
+    //% block="agent place floor below $blockid"
     //% weight=90
    export function placeFloor (blockid: number) {
       // 0 - 41 - Gold
