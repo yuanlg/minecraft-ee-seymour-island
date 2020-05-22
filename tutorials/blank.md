@@ -1,22 +1,21 @@
-
+```template
+//
+```
 
 ### @flyoutOnly 1
+### @hideIteration true
+### @explicitHints 1
 
-# No task
+# No Code Required
 
-```template
-player.onItemInteracted(BLAZE_ROD, function () {
-})
+## Introduction step @unplugged
 
-```
+# Coding is not required to complete your current activity.
 
-# 1. No task
+## Step 1
 
-## No task
-
-There is nothing to code right now, explore the island to find tasks.
+Please close this window to return to the world.
 
 
-```package
-seymour=github:gbaman/minecraft-ee-seymour-island
-```
+```ghost
+loops.onStart()
