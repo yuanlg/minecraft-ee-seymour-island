@@ -19,7 +19,7 @@ Sailing time will be a few days, depending on the winds.
 
 ![Captain](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/captain.jpg)
 
-In this world, you will be solving a series of puzzles, using Code. You can access the coding window at any time by pressing the **C** key on your keyboard.    
+In this world, you will be solving a series of puzzles, using code. You can access the coding window at any time by pressing the **C** key on your keyboard.    
 To solve these tasks, you will need to use an Agent.      
       
 Wait, you didn't bring one....?
@@ -35,7 +35,7 @@ It can move around, place blocks and break blocks as well!
 
 ## Get started @unplugged
 
-Lets get you started on training using your new Agent. First, lets try writing
+Let's get you started on training using your new Agent. First, lets try writing
 some code to instruct it to move from the Diamond block to the Gold block.   
 ![Agent moving](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/task0-move.gif)
 

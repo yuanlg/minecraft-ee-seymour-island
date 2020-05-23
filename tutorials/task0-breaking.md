@@ -26,7 +26,6 @@ the ship.
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
-    agent.move(LEFT, 2)
     agent.destroy(FORWARD)
 })
 ```

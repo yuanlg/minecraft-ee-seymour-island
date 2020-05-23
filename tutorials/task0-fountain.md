@@ -13,7 +13,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 Welcome to Seymour Island. To earn your place on the island, you must go and help 
 out the locals. The tasks are spread across the island (and below it in the mine).  
 If you want to check how you are getting on with completing all the tasks, drop
-by the town hall.   
+by the progress checker on the ground floor of the town hall.   
 ![Island](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/island.jpg)
 
 ## Status @unplugged
