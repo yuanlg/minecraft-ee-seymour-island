@@ -21,7 +21,8 @@ WARNING - This task includes a 50 second timer, that resets your agent back to t
 ## Step 2
 
 In this task, there are a few different ways to check each of the ore blocks.   
-The simple way though is a collection of ``||logic: or ||`` commands nested within each other.   
+One option is though is a collection of ``||logic: or ||`` commands nested within each other. 
+Alternatively, instead of telling the agent which blocks it **should** mine, we could use ``||logic: not ||`` to tell it which blocks not to mine.       
 
 Beyond this, the rest of the task is up to you. The final program will be similar to auto miner 2.   
 
