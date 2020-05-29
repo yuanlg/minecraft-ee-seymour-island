@@ -30,6 +30,10 @@ player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
+```ghost
+agent.move(LEFT)
+```
+
 ```package
 seymour=github:gbaman/minecraft-ee-seymour-island
 ```
