@@ -48,7 +48,7 @@ You will then need to change the **forward** to **left**.
 You might also need to change the number of steps...   
 
 When you are ready to run your code, close this code window with the **esc** key
-and while holding your **Blaze Rod** in your hand and right click.    
+and while holding your **Blaze Rod** in your hand, right click.    
 Use your keyboard number keys to select the correct slot. 
 
 ```blocks
