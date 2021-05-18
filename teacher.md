@@ -1,46 +1,46 @@
-# Teacher Guide
+# 老师指南
 ![Seymour Island](media/island.jpg)   
    
-Welcome to Seymour Island fellow educator! This guide contains a few useful pieces of information for running the Seymour Island world.   
+欢迎来到西摩岛教学！这本指南包含一些管理西摩岛世界的信息。
    
-First, some specifics   
-- The world supports up to 30 players at once (including the teacher/s).
-- The world is designed to be done in "virtual pairs". These could be 2 students sitting beside each other, or in their own call.   
-    - Although not 100% necessary, it allows students to assist each other, even if a number of the tasks are actually single player.   
-    - It also makes the multiplayer tasks a lot easier to already have pre-assigned pairs.   
-- There are 9 total unique tasks (each with 2-3 copies), plus the initial task 0, which is copied for each player. These 9 tasks break out to:   
-    - 6 single player tasks.
-    - 3 multiplayer tasks.   
+首先，看一下细节
+- 一次最多支持30名玩家（包括教师）。
+- 世界支持“虚拟组合”。这可能是两个学生坐在一起，或在他们自己通过微信实时交流。
+- 就算是单人任务也允许学生们互相帮助。
+- 多人游戏任务要事先分配好组合。
+- 总共有9个任务（每个任务有2-3个副本），另外加上学生初始化世界任务0。这9项任务包含：
+- 6个单人任务。
+- 3个多人任务。
 
 
 
-## Commands to allow you to manage the game   
-Below, you will find a few commands that will make managing this game a whole lot easier. Some are generic Minecraft, others are custom functions.   
+## 允许您管理游戏的命令   
+下面，您将学会一些命令，这些命令可以方便的管理游戏。有些是通用的我的世界命令，有些是自定义的功能.   
 
-#### Generic commands
-- Teleport to a student : ```/tp STUDENTNAME```
-- Teleport a student to you : ```/tp STUDENTNAME YOURNAME```
-- Clearing all players inventories : ```/clear @a```
-- Giving a player a replacement blaze rod : ```/give PLAYERNAME blaze_rod```
-- Switch to creative (flying) mode : ```/gamemode c```
-- Switch all players to adventure mode : ```/gamemode @a a```
+#### 通用命令
+-传送学生：```/tp 玩家名```
+-传送一个学生到你这：```/tp 玩家名 你的名字```
+-清除所有玩家库存：``/clear @a```
+-给一个玩家一个替换的火焰棒：```/give 玩家名 blaze_rod```
+-切换到创造（飞行）模式：```/gamemode c```
+-将所有玩家切换到冒险模式：``/gamemode @a a```
 
 
-#### Seymour Island specific commands
-- Teleport to the lobby (near the ship fleet) : ```/function lobby```
-- Teleport to the control room (in the town) : ```/function control```
-- Reset all the world settings : ```/function settings```
-- Reset/Setup world score system : ```/function reset_scores```
-- Load world builder tools chest : ```/function tools```
+#### 西摩岛特有命令
+- 传送到大厅（靠近船队）: ```/function lobby```
+- 传送到控制室（在镇上）: ```/function control```
+- 重置所有世界设置 : ```/function settings```
+- 重置/设置世界评分系统 : ```/function reset_scores```
+- 加载world builder工具箱 : ```/function tools```
 
 ## Makecode programs
-- Starting student allocator (out onto boats) - https://makecode.com/_227c9AeKXP3h
+- 启动学生分配器（上船） - https://makecode.com/_227c9AeKXP3h
 
-## Maps
-### Student map
-This map includes the tasks for the students. They can get access to this in the world by talking to the Mayor in the town.   
+## 地图
+### 学生地图
+这张地图包括学生的任务。他们可以通过和镇长谈话来了解这个世界.   
 ![Map](media/map.jpg)
 
-### Teacher overview map
-This map is designed for teachers to better understand the overview of the world.    
+### 教师概况图
+这张地图是为教师们更好地了解世界概况而设计的.    
 ![Overview Map](media/overview_map.jpg)
