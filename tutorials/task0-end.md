@@ -2,7 +2,7 @@
 
 ### @flyoutOnly 1
 
-# Ending
+# 结束
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -10,16 +10,15 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ```
 
-# 1. Captain
+# 1. 船长
 
-## Ending @unplugged
+## 结束 @unplugged
 
-Thanks for doing that repair. Can you come over to the captains quarters now please
-to see me?    
-![Captain](https://raw.githubusercontent.com/gbaman/minecraft-ee-seymour-island/master/media/captain.jpg)
+谢谢你维修。你现在能到船长办公室来来见我吗?    
+![Captain](https://raw.fastgit.org/gbaman/minecraft-ee-seymour-island/master/media/captain.jpg)
 
-## Ending
-There is nothing to code right now, go see the captain in his quarters.
+## 结束
+现在没什么需要编码的，去船长那看看.
 
 
 ```package
