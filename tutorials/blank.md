@@ -8,7 +8,7 @@
 
 # 不需要编码
 
-## Introduction step @unplugged
+## 说明步骤 @unplugged
 
 # 当前活动不需要编码
 
