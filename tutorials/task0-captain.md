@@ -2,7 +2,7 @@
 
 ### @flyoutOnly 1
 
-# Captain
+# 船长
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -10,15 +10,15 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ```
 
-# 1. Captain
+# 1. 船长
 
-## Ending @unplugged
+## 结束 @unplugged
 
-Thanks for sorting that repair, hopefully you are getting use to using that Agent.   
-I was just going to say as well.....      
-![Captain](https://raw.githubusercontent.com/gbaman/minecraft-ee-seymour-island/master/media/captain.jpg)
+感谢您的修理，希望您还习惯使用该机器人.   
+我只是想说.....      
+![Captain](https://raw.fastgit.org/gbaman/minecraft-ee-seymour-island/master/media/captain.jpg)
    
-## Ending @unplugged 
+## 结束 @unplugged 
 ![Captain](https://raw.githubusercontent.com/gbaman/minecraft-ee-seymour-island/master/media/captain-left.jpg)
 
 # CRASH
@@ -26,16 +26,16 @@ I was just going to say as well.....
 ## Ending @unplugged 
 ![Captain](https://raw.githubusercontent.com/gbaman/minecraft-ee-seymour-island/master/media/captain-right.jpg)
    
-# CRASH
+# 崩溃
    
-### Quickly, go grab the steering wheel!!
+### 快点，抓住方向盘!!
 It's on the deck above!
 
-## Ending
+## 结束
 
-There is nothing to code right now, quickly go grab the steering wheel!!!
+现在没什么要编码的，快去抓住方向盘!!!
 
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
