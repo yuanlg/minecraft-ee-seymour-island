@@ -1,26 +1,25 @@
 ### @flyoutOnly 1
 
 
-# Circuit Repair
+# 电路维修
 
 
-## Step 1
+## 第一步
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-In this task, you must fix the redstone circuit. The missing pieces are marked with green blocks below.
-Your agent has plenty of redstone, ready to be used for this repair. 
-Place your code within the ``||player: on item used||`` section, then right click
-your **blaze rod** when you want to run the code.
-Hit the **Next** button to continue.
+在此任务中，必须修复红石电路。电路缺失的部分在下面已经用绿色方块标出。
+你的机器人有很多红石可以用来修理。
+使用``||player: 当使用 物品 时||`` 指令 来运行你的代码。然后拿着相应物品点击鼠标右键
+当你想执行代码时，可以挥动你的**木棍**
+点击 **下一步** 按钮继续.
 
-## Step 2
-First, we need to get our agent to the sections that have been damaged (marked with green).
-Try using the ``||agent:agent move forward||`` and ``||agent:agent turn left/right||`` commands to position your agent
-above one of the green blocks.
+## 第二步
+首先，我们需要让我们的机器人移动到被损坏地方（用绿色标记）
+使用 ``||agent:代理机器人 移动方向 前||`` 和 ``||agent:代理机器人 转动方向 左/右||`` 指令来控制机器人移动到绿色方块上。
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -31,8 +30,8 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ```
 
 
-## Step 3
-Now place the redstone using ``||agent:agent place down||`` on a green block, to fix that part of the circuit.
+## 第三步
+现在使用 ``||agent:代理机器人放置方向 下||`` 向绿色方块上放置红石, 这样就可以修复电路.
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
     agent.place(DOWN)
@@ -41,9 +40,9 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 
 ## Step 4
-Now have your Agent move backwards and place redstone on the other green marked blocks.
-If you find yourself stuck or want to start again, hit the Reset button on the wall.
+现在让你的机器人向后移动，把红石放在其他绿色标记的方块上。
+如果你发现自己卡住了或想重新开始，可以按墙上的重置按钮。
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
