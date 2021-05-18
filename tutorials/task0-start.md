@@ -2,7 +2,7 @@
 
 ### @flyoutOnly 1
 
-# Introduction
+# 介绍
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -10,46 +10,46 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ```
 
-# 0. Introduction
+# 0. 介绍
 
-## Introduction @unplugged
+## 介绍 @unplugged
 
-Welcome onboard, my name is Captain Papert. We have just left port and are on our way.   
-Sailing time will be a few days, depending on the winds.   
+欢迎登船，我是帕普特船长。我们刚离开港口，正在路上。
+航行时间可能需要好几天，视风向而定。  
 
-![Captain](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/captain.jpg)
+![Captain](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/captain.jpg)
 
-In this world, you will be solving a series of puzzles, using code. You can access the coding window at any time by pressing the **C** key on your keyboard.    
-To solve these tasks, you will need to use an Agent.      
+在这个世界里，你将通过编码来解决一系列的难题。您可以随时按键盘上的**C**键进入“编码”窗口。
+要完成这些任务，需要使用机器人。     
       
-Wait, you didn't bring one....?
+等等，你没带....?
 
-## Agent @unplugged
+## 机器人 @unplugged
 
-That's ok, you can borrow my spare Agent. You better look after him!
+没关系，你可以借我的备机器人。你最好照顾他！
 
-This little robot is your key to solving tasks in this world.   
-It can move around, place blocks and break blocks as well!
+这个小机器人是帮你完成这个世界上的所有任务。
+它可以移动，放置方块和打破方块！
 
-![Agent](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/agent.jpg)
+![Agent](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/agent.jpg)
 
-## Get started @unplugged
+## 开始 @unplugged
 
-Let's get you started on training using your new Agent. First, lets try writing
-some code to instruct it to move from the Diamond block to the Gold block.   
-![Agent moving](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/task0-move.gif)
+让我们开始使用你的新机器人行培训。
+首先，让我们试着编写一些代码指示它从钻石块上移动到黄金块上。
+![Agent moving](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/task0-move.gif)
 
-You may wish to close this window (hit the **esc** key) to find your agent.   
-Remember, you can open it up again by pressing **C**
+您可以关闭此窗口（按**esc**键）来查看您的机器人。
+记住，您可以按**C**再次打开它
 
-## Time to code
-Drag out an ``||Agent:agent move||`` block into the ``||player:on item used||`` block.   
-You will then need to change the **forward** to **left**.   
-You might also need to change the number of steps...   
+## 编码时间
+拖出一个 ``||Agent:代理机器人 移动||`` 放到 ``||player:当使用 物品||`` 块里.   
+然后您需要将**前**更改为**左**。 
+您可能还需要更改步骤数。。。 
 
-When you are ready to run your code, close this code window with the **esc** key
-and while holding your **Blaze Rod** in your hand, right click.    
-Use your keyboard number keys to select the correct slot. 
+准备好运行代码后，用**esc**键关闭此代码窗口
+拿着背包里的**木棍**，然后点击鼠标右键，代码就会执行。
+你可以通过鼠标滚轮来选择物品，也可以使用数字键选择物品。
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -58,5 +58,5 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ```
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
