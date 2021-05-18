@@ -28,8 +28,8 @@ player.onItemInteracted(BLAZE_ROD, function () {
    
 # 崩溃
    
-### 快点，抓住方向盘!!
-It's on the deck above!
+### 快点，抓住方向盘!
+在上面的甲板上！
 
 ## 结束
 
