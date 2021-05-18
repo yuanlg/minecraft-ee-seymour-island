@@ -19,12 +19,12 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ![Captain](https://raw.fastgit.org/yuanlg/minecraft-ee-seymour-island/master/media/captain.jpg)
    
 ## 结束 @unplugged 
-![Captain](https://raw.githubusercontent.com/yuanlg/minecraft-ee-seymour-island/master/media/captain-left.jpg)
+![Captain](https://raw.fastgit.org/yuanlg/minecraft-ee-seymour-island/master/media/captain-left.jpg)
 
 # CRASH
 
 ## Ending @unplugged 
-![Captain](https://raw.githubusercontent.com/yuanlg/minecraft-ee-seymour-island/master/media/captain-right.jpg)
+![Captain](https://raw.fastgit.org/yuanlg/minecraft-ee-seymour-island/master/media/captain-right.jpg)
    
 # 崩溃
    
