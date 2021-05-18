@@ -4,9 +4,9 @@
 //% weight=94 color=#EC7505 icon="\uf1b3"
 namespace seymour {
    /**
-     * Repair the block below
+     * 修理下面的方块
      */
-    //% block="agent repair below"
+    //% block="修理下面"
     //% weight=90
     export function repairBelow() {
         if (agent.inspect(AgentInspection.Block, DOWN) == AIR) {
@@ -18,19 +18,19 @@ namespace seymour {
     }
 
       /**
-     * Places redstone below
+     * 把红石放在下面
      */
-    //% block="agent place redstone below"
+    //% block="红石放下面"
     //% weight=90
     export function placeRedstoneBelow() {
         agent.place(DOWN)
     }
 
    /**
-     * Places one of the available floor blocks below
+     * 在下面放置一个可用的地板块
      * @param blockid the block id to place below
      */
-    //% block="agent place floor below $blockid"
+    //% block="在下面放地板块 $blockid"
     //% weight=90
    export function placeFloor (blockid: number) {
       // 0 - 41 - Gold
