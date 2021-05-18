@@ -23,7 +23,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 # CRASH
 
-## Ending @unplugged 
+## 结束 @unplugged 
 ![Captain](https://raw.fastgit.org/yuanlg/minecraft-ee-seymour-island/master/media/captain-right.jpg)
    
 # 崩溃
