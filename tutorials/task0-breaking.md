@@ -20,7 +20,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ![Breaking block](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/task0-break.gif)
 
 ## 摧毁方块
-使用``||Agent:agent destroy||`` 指令去挖取我们需要用来修理船体的木头方块.
+使用``||Agent:代理机器人 摧毁||`` 指令去挖取我们需要用来修理船体的木头方块.
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
