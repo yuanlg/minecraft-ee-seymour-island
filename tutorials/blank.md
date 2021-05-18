@@ -6,15 +6,15 @@
 ### @hideIteration true
 ### @explicitHints 1
 
-# No Code Required
+# 不需要编码
 
 ## Introduction step @unplugged
 
-# Coding is not required to complete your current activity.
+# 当前活动不需要编码
 
 ## Step 1
 
-Please close this window to return to the world.
+请关闭编码窗口回到世界.
 
 
 ```ghost
