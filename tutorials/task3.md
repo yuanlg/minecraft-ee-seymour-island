@@ -84,5 +84,5 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ```
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
