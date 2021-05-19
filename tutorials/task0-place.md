@@ -14,7 +14,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ## 维修 @unplugged
 
 现在我们已经有一些木头用于修理，把机器人移动岛需要修理的地方去。      
-![Agent repair](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/task0-place.gif)
+![Agent repair](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/task0-place.gif)
 
 ## 移动
 首先，把机器人移动到金色方块上.   
