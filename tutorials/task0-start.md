@@ -17,7 +17,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 欢迎登船，我是帕普特船长。我们刚离开港口，正在路上。
 航行时间可能需要好几天，视风向而定。  
 
-![Captain](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/captain.jpg)
+![Captain](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/captain.jpg)
 
 在这个世界里，你将通过编码来解决一系列的难题。您可以随时按键盘上的**C**键进入“编码”窗口。
 要完成这些任务，需要使用机器人。     
@@ -31,13 +31,13 @@ player.onItemInteracted(BLAZE_ROD, function () {
 这个小机器人是帮你完成这个世界上的所有任务。
 它可以移动，放置方块和打破方块！
 
-![Agent](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/agent.jpg)
+![Agent](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/agent.jpg)
 
 ## 开始 @unplugged
 
 让我们开始使用你的新机器人行培训。
 首先，让我们试着编写一些代码指示它从钻石块上移动到黄金块上。
-![Agent moving](https://hub.fastgit.org/yuanlg/minecraft-ee-seymour-island/raw/master/media/task0-move.gif)
+![Agent moving](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/task0-move.gif)
 
 您可以关闭此窗口（按**esc**键）来查看您的机器人。
 记住，您可以按**C**再次打开它
