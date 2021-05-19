@@ -16,15 +16,15 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 感谢您的修理，希望您还习惯使用该机器人.   
 我只是想说.....      
-![Captain](https://raw.fastgit.org/yuanlg/minecraft-ee-seymour-island/master/media/captain.jpg)
+![Captain](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/captain.jpg)
    
 ## 结束 @unplugged 
-![Captain](https://raw.fastgit.org/yuanlg/minecraft-ee-seymour-island/master/media/captain-left.jpg)
+![Captain](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/captain-left.jpg)
 
 # CRASH
 
 ## 结束 @unplugged 
-![Captain](https://raw.fastgit.org/yuanlg/minecraft-ee-seymour-island/master/media/captain-right.jpg)
+![Captain](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/captain-right.jpg)
    
 # 崩溃
    
