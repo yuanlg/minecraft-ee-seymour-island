@@ -1,30 +1,29 @@
 ### @flyoutOnly 1
 
 
-# Auto Miner level 3
+# 挖矿工程师 三级(高级)
 
 
-## Step 1
+## 第一步
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-In this task, you must use your agent to mine **only** the ores!   
-You need to be careful, if you mine out the other stone around it, there is a chance the mine might collapse...   
+在这项任务中，你必须让你的代理机器人只开采铁矿石！
+你要小心，如果你挖出了别的石头，那矿就有可能坍塌。。。
 
-This task is an **advanced** task, it is highly recommended you have completed Auto Miner 1 and 2 first!
+此任务是**高级**任务，强烈建议您先完成挖矿工程师一级和二级！
 
-WARNING - This task includes a 50 second timer, that resets your agent back to the start after 50 seconds.      
+警告-此任务包含一个50秒计时器，该计时器将在50秒后将代理重置机器人到初始状态。   
 
-## Step 2
+## 第二步
 
-In this task, there are a few different ways to check each of the ore blocks.   
-One option is though is a collection of ``||logic: or ||`` commands nested within each other. 
-Alternatively, instead of telling the agent which blocks it **should** mine, we could use ``||logic: not ||`` to tell it which blocks not to mine.       
-
-Beyond this, the rest of the task is up to you. The final program will be similar to Autominer 2.   
+在这个任务中，有几种不同的方法来检查每个矿石。
+一个选择是使用多个 ``||logic: 或者 ||`` 方块指令组合，告诉机器人要收**应该**收集些方块.
+另一个方法是通过使用``||logic: 非 ||`` 指令告诉机器人哪些方块**不应该**收集
+除此之外，剩下的任务由你独自来完成。最终的编码程序类似于挖矿工程师二级的中的编码内容。  
 
 
 ```ghost
@@ -49,5 +48,5 @@ bob = 2
 ```
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
