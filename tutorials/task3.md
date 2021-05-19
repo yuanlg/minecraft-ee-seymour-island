@@ -1,29 +1,29 @@
 ### @flyoutOnly 1
 
 
-# Auto Miner level 2
+# 挖矿工程师 二级(中级)
 
 
-## Step 1
+## 第一步
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-In this task, you must use your agent to mine **only** the iron ore!   
-You need to be careful, if you mine out the other stone around it, there is a chance the mine might collapse...   
+在这项任务中，你必须让你的代理机器人**只**开采铁矿石！  
+你要小心，如果你挖出了别的石头，那矿就有可能坍塌。。。
 
-When you are ready to get started, hit next.   
+如果你准备好了，请点击下一步.   
 
-## Step 2
+## 第二步
 
-The first step will be detecting the iron ore. We can start with checking the block below the agent.   
-Start by adding a ``||logic:if then||``, with a ``||logic:0 = 0||`` block within it.   
-In the first slot of this, use an ``||agent: agent inspect block down||`` to detect which block is below.   
-Then on the right hand side, compare it against an Iron Ore Block.   
-Within this if statement, add an ``||agent:agent destroy down||``.   
-Now try your code. You can reset the task at any point using the buttons on the right.   
+首先是探测铁矿石。我们可以从代理机器人下面的方块开始检检测.   
+先拖出一个 ``||logic:如果为 则||`` 指令, 然后把 ``||logic:0 = 0||`` 指令放进去(放到true那个位置).   
+然后在**‘=’**左边的槽里, 放置一个 ``||agent: 代理机器人检查 方块 方向 下||`` 来检测下面的方块.   
+再在**‘=’**右边的槽里放置物品，选择成铁矿，进行比较。
+最后在当前这个判断语句里面(如果....则 里面), 增加一个 ``||agent:代理机器人 摧毁方向 下||`` 命令.   
+现在试试你的代码吧。如果有问题，你可以使用鼠标右键点击旁边的重置按钮重置任务.   
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -33,12 +33,12 @@ if (agent.inspect(AgentInspection.Block, DOWN) == IRON_ORE) {
 })
 ```
 
-## Step 3
+## 第三步
 
-Using the code you built for the previous exercise, can you check and destroy to the right now as well?  
-Place this section within a ``||loops:repeat 3 times||`` command and and move the agent up 1 each time.   
-Don't forget to bring the agent back down again.   
-Now try your code. You can reset the task at any point using the buttons on the right.  
+使用你上一步写的代码，你是否可以比较出色的解决检测并摧毁方块的问题?  
+将上一步的代码放在一个``||loops:重复 3 次||`` 命令块里， 并且没次重复时把代理机器人向上移动一步.   
+最后别忘了让代理机器人再回到原处.   
+现在试试你的代码吧。如果有问题，你可以使用鼠标右键点击旁边的重置按钮重置任务. 
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -56,10 +56,10 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ```
 
-## Step 4
+## 第四步
 
-Finally, encase the entire code within a further ``||loops:repeat X times||`` command. You will have to count how many blocks you need it to go forward.    
-You are on your own for this last bit, good luck!
+最后，再将之前所有代码都放到一个 ``||loops:重复 X 次||`` 命令块中. 你得数一数一共要重复多少次(把x改成你认为的数字).    
+最后这一点你得靠自己，祝你好运!
 
 (remember though, you can hit the Reset Agent button in the world at any time to try again)
 
