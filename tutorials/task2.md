@@ -1,20 +1,19 @@
 ### @flyoutOnly 1
 
 
-# Auto Miner level 1
+# 挖矿工程师 一级
 
 
-## Step 1
+## 第一步
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-Let's use the agent to dig a mine shaft ahead. First, why not try breaking
-the block ahead of the Agent, using ``||agent:agent destroy forward||``.
-Place your code within the ``||player: on item used||`` section, then right click
-your **blaze rod** when you want to run the code.
+我们用机器人在前面挖一个矿井吧。首先，先让机器人清理前面的障碍, 使用 ``||agent:代理机器人 摧毁方向 前||``.
+把它拖放到 ``||player: 当使用 物品 时||`` 里面, 然后点击鼠标邮件
+当你想执行代码时就手持 **木棍** 点击鼠标右键(使用木棍).
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -22,10 +21,10 @@ agent.destroy(FORWARD)
 })
 ```
 
-## Step 2
-Lets now combine that with an ``||agent:agent move up||`` command, followed by another
-``||agent:agent destroy forward||``.
-Can you try getting your Agent to break the first column of 3 stone blocks?
+## 第二步
+现在让我们把 ``||agent:代理机器人 移动方向 上||`` 指令, 放在另一个
+``||agent:代理机器人 摧毁 前||`` 下面.
+你能试着让你的机器人打破第一列的3块石头吗？
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -39,14 +38,12 @@ agent.move(UP, 1)
 ```
 
 
-## Step 3
-Surely there is bound to be a better way to do the same action 3 times, instead of just
-putting the same code 3 times?   
-The answer, loops!   
-You can use the ``||loops:Repeat 3 times do||`` (or ``||loops:for||`` in Python) command to repeat the commands contained
-within the command, 3 times.  
-So why not add the ``||agent:agent destroy forward||`` and ``||agent:agent move up||``
-inside a ``||loops:Repeat 3 times do||``?
+## 第三步
+你知道有更好的方法来重复3次一样的动作吗？而不是把同样动作的代码放3次。
+答案是：重复（循环）!  
+你可以使用 ``||loops:重复 3 次||`` (or ``||loops:for||`` in Python) 指令，把需要重复执行的指令放在它里面。  
+所以好的办法是不是应该把 ``||agent:代理机器人 摧毁方向 前||`` 和 ``||agent:代理机器人 移动方向 上||``
+放到 ``||loops:重重 3 次||``里面?
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -60,11 +57,10 @@ for (let index = 0; index < 3; index++) {
 
 
 
-## Step 4
-Finally, using what you have learnt so far, can you use another ``||loops:Repeat 7 times do||`` 
-(or ``||loops:for||`` in Python) to dig out the rest of the mine shaft right up to
-the golden block at the end? Once complete, make sure your Agent finishes on the gold block pressure pad.
+## 第四步
+最后，利用你所学的知识, 你能用另一个 ``||loops:重复 7 次||`` 
+(or ``||loops:for||`` in Python) 指令把矿井挖到黄金快那里吗? 一旦完成，确保你的机器人站在黄金块上.
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
