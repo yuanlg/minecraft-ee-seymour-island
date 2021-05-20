@@ -1,19 +1,20 @@
 ### @flyoutOnly 1
 
 
-# Fish collector
+# 捕鱼器
 
 
-## Step 1
+## 第一步
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-In this task, we need to move clownfish and pufferfish from the ship, over onto the pier. First though, lets go collect some fish. Use the ``||agent:agent move forward 2||`` command to position your Agent over a fish collection point. 
-Then use the ``||agent:agent collect CLOWNFISH||`` command to pick up only clownfish for now.   
+在这个任务中，我们需要把小丑鱼和河豚从船上移到码头上. 首先, 让我们去选择鱼吧. 使用 ``||agent:代理机器人启动方向 前 距离 2||`` 指令让机器人停在采集鱼的地点. 
+然后使用 ``||agent:机器人收集 小丑鱼||`` 指令 去钓小丑鱼.   
 Place your code within the ``||player: on item used||`` section, then right click your **blaze rod** when you want to run the code.
+使用||player: 当使用 物品 时|| 指令 来运行你的代码，然后拿着相应物品点击鼠标右键。 当你想执行代码时，可以挥动你的木棍
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -24,8 +25,8 @@ agent.collect(CLOWNFISH)
 
 ```
 
-## Step 2
-With some clownfish now collected, lets also collect clownfish from the rest of the pickup points. Why not try and put your code in a ``||loops:Repeat 3 times loop||`` (or ``||loops:for loop||`` in Python).
+## 第二步
+现在一些小丑鱼已经收集来了， 让我们也换一些地点收集. 可以尝试将你当前的代码放在一个 ``||loops:重复 3 次 ||`` 的指令中(or ``||loops:for loop||`` in Python).
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -38,19 +39,19 @@ for (let index = 0; index < 3; index++) {
 
 ```
 
-## Step 3
-With all your clownfish now collected, next write a program to take your Agent over to the correct drop off point on the pier and use the ``||agent:agent drop all down||`` command to drop all the fish into the bucket.
+## 第三步
+现在你的小丑鱼都收集好了，接下来写一个程序把你的代理机器人带到码头上的卸货点， 然后使用 ``||agent:代理机器人丢弃所有 方向 前||`` 指令把鱼放进桶里.
 
 ```ghost
 agent.dropAll(FORWARD)
 ```
 
-## Step 4
-Try putting all this within a ``||loops:Repeat times loop||`` to keep picking up fish and droping them off.
+## 第四步
+把你现在所有的代码放到一个 ``||loops:重复 10 次||`` 指令中，让机器人重复去钓鱼、把鱼放进桶里.
 
-## Step 5
-Finally, replicate the same process to handle pufferfish. It is recommended to do this separately.
+## 第五步
+最后，重复同样的过程来编码处理河豚。建议你自己独立完成哦.
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
