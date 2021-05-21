@@ -1,7 +1,7 @@
 ### @flyoutOnly 1
 
 
-# Multiplayer circuits
+# 多人电路修复
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -9,39 +9,35 @@ player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-## Step 1
+## 第一步
 
-Before you get started, it is important you have a friend in the room beside you to 
-help with this task, as it requires 2 players!
-It is also recommended that you have completed the fixing circuits single player 
-task before attempting this one.   
-Once you are ready to proceed, hit the next button.   
+在你开始之前，你需要一个朋友和你一起玩来帮助你完成，因为这个任务需要你么协作完成!
+在尝试此任务之前，建议你已完成修复电路的单人任务.   
+一旦你准备好了，点击下一步按钮.   
 
-## Step 2
+## 第二步
 
-This task involves repairing some circuits together, on a large scale.   
-Look down into the circuit area. There are 4 quadrants, 2 of which you have to fix
-and 2 that your friend has to fix. They feed into each other across the centre line.
-The redstone current travels through the centre gold blocks. 
-Note you can only place redstone on the **Green Emerald** blocks.  
+这项任务需要大规模地修理一些电路.   
+向下看一下电路区域，一共有4个部分，其中2个需要你来修复，另外2个由你朋友修复.
+电路需要通过中心线相互连接在一起，铺设红石，通过中间的黄金块来联通电路. 
+注意：您只能在**绿宝石**块上放置红石。 
 
 
-## Step 3
+## 第三步
 
-Although you could write a program that had instructions for each block to check, why
-not just build a program that scans for all emerald blocks, then places redstone?   
-Let's start by using ``||agent:agent move left/right||`` to get your agent to a corner to start.
+虽然你可以写次个程序，分别对每个方块进行检测是不是绿宝石块，但最好是只写一个程序，执行依次可以扫描所有的绿宝石块，然后放置红石。  
+让我们线使用 ``||agent:代理机器人移动方向 左 距离 1||`` 指令，把机器人移动到开始位置.
 
 ```blocks
 agent.move(LEFT, 1)
 ```
 
-## Step 4
+## 第四步
 
-Next, lets check if the block below us equals emerald.  
-Start by adding a ``||logic:if then||``, with a ``||logic:0 = 0||`` block within it.   
-In the first slot of this, use an ``||agent: agent inspect block down||`` to detect which block is below.   
-Then on the right hand side, compare it against an Emerald Block.
+接下来，让我们编码检查下面的方块是否是绿宝石块.  
+首先拖一个 ``||logic:如果为 True 则||``命令出来, 再把 ``||logic:0 = 0||`` 命令方块放到'True'的位置.   
+然后在**‘=’**左边的槽里放置一个 ``||agent: 代理机器人检查 方块 下||`` 命令块用来检测下方的方块.  
+最后在**‘=’**右边的槽里放置一个物品方块，选择成绿宝石，完成判断语句的比较。
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -52,10 +48,11 @@ player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-## Step 5
+## 第五步
 
-Within this if statement, if it does correctly detect emerald, then lets place some redstone down using ``||agent:agent place down||``.   
-We also want to move forward after our if statement is complete by 1, using ``||agent:agent move forward by 1||``.
+在这个判断语句中如果能检测到绿宝石方块,就使用 ``||agent:代理机器人放置方向 下||``命令放置一个红石.   
+我们可能还希望在判断语句执行的前后都让机器人移动一步, 可以使用 ``||agent:代理机器人移动方向 前 距离 1||``指令来让机器人移动，
+但是你一定要考虑清楚，机器人移动的方向，然后选择正在的移动方向.
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -67,11 +64,11 @@ player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-## Step 6
+## 第六步
 
-You now have all the basic building blocks you need to complete this task. To reduce the amount of code you need to write to
-complete this task, make sure to give ``||loops:repeat X times||`` a go as well, as this will make things a lot easier.   
-Good luck!
+完成前5步后，你就基本完成了此任务所需的所有基本代码. 为了一次完成任务并且减少编写代码的数量, 
+研究学会使用 ``||loops:重复 X 次||`` 循环命令是个非常好的捷径.   
+祝你好运!
 
 
 ```ghost
