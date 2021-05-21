@@ -13,8 +13,8 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 在这个任务中，我们需要把小丑鱼和河豚从船上移到码头上. 首先, 让我们去选择鱼吧. 使用 ``||agent:代理机器人启动方向 前 距离 2||`` 指令让机器人停在采集鱼的地点. 
 然后使用 ``||agent:机器人收集 小丑鱼||`` 指令 去钓小丑鱼.   
-Place your code within the ``||player: on item used||`` section, then right click your **blaze rod** when you want to run the code.
-使用||player: 当使用 物品 时|| 指令 来运行你的代码，然后拿着相应物品点击鼠标右键。 当你想执行代码时，可以挥动你的木棍
+把你的代码都放到 ``||player: 当使用 物品 时||`` 里面。
+当你想执行代码时就手持 **木棍** 点击鼠标右键(使用木棍).
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
