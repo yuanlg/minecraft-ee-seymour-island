@@ -2,7 +2,7 @@
 
 ### @flyoutOnly 1
 
-# Carpet Builder
+# 地毯铺设工
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -10,21 +10,19 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ```
 
-# 8. Building Carpet
+# 8. 铺设地毯
 
-## Introduction step @unplugged
+## 步骤说明 @unplugged
 
-# Carpet building
+# 地毯建筑
 
-![Meet-Agent](https://github.com/gbaman/minecraft-ee-seymour-island/raw/master/media/carpet.gif)
+![Meet-Agent](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/carpet.gif)
 
-## Step 2
+## 第二步
 
-In this task, you must use your agent to build out a carpet, following the patterns
-in each of the 4 sections provided.   
-To do this, we will use Lists/Arrays to "save" a copy of the carpet already, then 
-play this back line by line to build the required design.   
-Hit the Next button to get started!
+在这个任务中，你需要使用你的代理机器人来铺设一个地毯，要和已铺设的第一行放置的方块一样.   
+为此，我们将使用**数组/列表**来“保存”地毯有哪些方块组成，然后逐行执行放置数组的内容，依次完成地毯铺设.   
+点击下一步按钮开始!
 
 ## Step 3
 First, lets create a blank list/array. Use the ``||Arrays:set list to||`` command
@@ -144,5 +142,5 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ```
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
