@@ -6,16 +6,16 @@
 ### @hideIteration true
 ### @explicitHints 1
 
-# Maze eyes
+# 迷宫观察者
 
-## Introduction step @unplugged
+## 步骤说明 @unplugged
 
-### In this task, you are the eyes for the coder! As such, your Agent is not used. Close this window and hold the barrier block in your hand to see the maze.  
+### 在这个任务中，你是编码者的眼睛！因此，不必用你的代理机器人。关上这扇窗户，手里拿着栅栏你就能看清楚迷宫。  
 
-## Step 1
+## 第一步
 
-In this task, you are the eyes for the coder! As such, your Agent is not used.    
-Close this window and hold the barrier block in your hand to see the maze.  
+在这个任务中，你是编码者的眼睛！ 因此，不必用你的代理机器人.    
+关上这扇窗户，手里拿着栅栏你就能看清楚迷宫.  
 
 
 ```ghost
@@ -23,5 +23,5 @@ loops.onStart()
 ```
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
