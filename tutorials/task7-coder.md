@@ -1,29 +1,26 @@
 ### @flyoutOnly 1
 
 
-# Maze coder
+# 迷宫编码
 
 
-## Step 1
+## 第一步
 
 ```template
 player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 
-In this task, you need to get your Agent to the golden pressure pad. Seems easy, right?...   
-The catch... You can't see the obstacles in its way! For that, you will require a friend
-to take the position above, with the added benefit of invisable block visability. They will guide you.    
-When you and your partner are ready, hit Next.   
+在这项任务中，你需要让你的代理人移动到黄金块上.看起来很简单，对吧？...   
+但是你看不到路上的障碍！为此，你需要一个朋友来帮你观察,可以让隐藏的障碍物变得可见. 你的朋友会指引你。
+当你和你的朋友准备好了，点击下一步按钮。
 
-## Step 2
-To move your agent, you can use the ``||agent:agent move FORWARD||`` command.   
-You are also able to use the ``||agent:agent turn LEFT||`` command if you wish.    
+## 第二步
+你可以使用 ``||agent:代理机器人移动方向 前 距离 1||`` 命令来移动你的代理机器人.   
+同时你可以使用``||agent:代理机器人转向 左||`` 指令让机器人转向.    
 
-Place your code within the ``||player: on item used||`` section, then right click
-your **blaze rod** when you want to run the code.
-   
-Good luck!
+把你的代码都拖放到 ||player: 当使用 物品 时|| 里面,当你想执行代码时就手持 木棍 点击鼠标右键(使用木棍).
+祝你好运!
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -36,5 +33,5 @@ agent.turn(LEFT)
 ```
 
 ```package
-seymour=github:gbaman/minecraft-ee-seymour-island
+seymour=github:yuanlg/minecraft-ee-seymour-island
 ```
