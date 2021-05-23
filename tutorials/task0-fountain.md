@@ -20,7 +20,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 有大量不同的任务需要您完成。想尝试某项任务吗？
 任务前面的状态显示为绿色的你才能进行。如果是红色的，那是别人正在进行它。
    
-大多数任务都重复了2-3次，所以如果一个任务很忙，为什么不试试下一个任务呢？   
+大多数任务都可以2-3人同时进行，如果一个任务很忙，为什么不试试下一个任务呢？   
 ![Status](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/status.jpg)
 
 ## 按钮 @unplugged
