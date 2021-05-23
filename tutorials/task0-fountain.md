@@ -12,7 +12,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 欢迎来到西摩岛。为了在岛上赢得一席之地，你必须去帮助当地人解决问题。
 这些任务分布在整个岛上（在它下面的矿井里）。
-如果你想检查一下你在完成所有任务方面的进展情况，请去办事处一楼的任务检查器查看.   
+如果你想检查一下任务完成情况，请去办事处一楼的任务检查器查看.   
 ![Island](https://yuanlg.cn:4438/mce/minecraft-ee-seymour-island/media/island.jpg)
 
 ## 状态 @unplugged
